@@ -13,6 +13,7 @@ class CashRegister
   end
 
   def apply_discount
-    if @discount >= 1
+    if @discount > 0 
+      @total 
   
 end
