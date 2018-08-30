@@ -15,6 +15,9 @@ class CashRegister
   def apply_discount
     if @discount > 0 
       @total *= @discount / 100
+    else
+      puts ""
     end
+  end
   
 end
