@@ -13,7 +13,7 @@ class CashRegister
     items << title
     end
     @total += price * quantity
-    last_transaction = price * quantity.to_i
+    last_transaction = price.to_f * quantity
   end
 
   def apply_discount
